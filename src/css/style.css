@@ -1,0 +1,51 @@
+/*
+* Régles globales
+*****************/
+
+@import url('https://fonts.googleapis.com/css?family=Barlow|Gamja+Flower|Noto+Serif+TC');
+
+/* 
+font-family: 'Gamja Flower', cursive;
+font-family: 'Barlow', sans-serif;
+font-family: 'Noto Serif TC', serif; 
+*/
+
+a {
+    text-decoration: none;
+    color: #965041;
+}
+
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.calendar {
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+    background-color: #182433;
+    color: #FFF;
+}
+
+.calendar thead i.fa-angle-left,
+.calendar thead i.fa-angle-right {
+    font-size: 1.5em;
+}
+
+.calendar select {
+    border: none;
+    appearance: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+.calendar select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.calendar tbody td {
+    text-align: center;
+    font-size: 1.5em;
+}
