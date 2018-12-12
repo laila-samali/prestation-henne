@@ -1,0 +1,124 @@
+/*
+* Régles globales
+*****************/
+
+@import url('https://fonts.googleapis.com/css?family=Barlow|Gamja+Flower|Noto+Serif+TC');
+/* 
+font-family: 'Gamja Flower', cursive;
+font-family: 'Barlow', sans-serif;
+font-family: 'Noto Serif TC', serif; 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Kristi');
+/* font-family: 'Kristi', cursive; */
+
+a {
+    text-decoration: none;
+    color: #965041;
+}
+
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+/*
+ * HEADER
+**************/
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background: url("../medias/img/henna_by_alahay_d5b3ezo-fullview.jpg");
+    background-size: cover;
+    color: #FFF;
+}
+
+header nav div.logo,
+header nav ul {
+    display: inline-block;
+}
+
+header .logo {
+    font-family: 'Kristi', cursive;
+    font-size: 2.5em;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    margin: auto 12px;
+}
+
+nav + div {
+    position: relative;
+    bottom: -300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+nav + div h3 {
+    font-size: xx-large;
+}
+
+nav + div p {
+    width: 90%;
+    font-size: x-large;
+}
+
+nav + div a {
+    padding: 12px;
+    border: solid 1px #FFF;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 1.3em;
+}
+
+nav + div a:hover {
+    border-color: rgb(248, 127, 71);
+    background-color: #FFF;
+    color: #182433;
+}
+
+main {
+    position: absolute;
+    top: 100vh;
+}
+
+/*
+ * Calendrier
+**************/
+
+.calendar {
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+    background-color: #182433;
+    color: #FFF;
+}
+
+.calendar thead i.fa-angle-left,
+.calendar thead i.fa-angle-right {
+    font-size: 1.5em;
+}
+
+.calendar select {
+    border: none;
+    appearance: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+.calendar select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.calendar tbody td {
+    text-align: center;
+    font-size: 1.5em;
+}
