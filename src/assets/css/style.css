@@ -109,9 +109,16 @@ main {
 }
 
 main section.video-preview,
-main section.tarifs {
+main section.tarifs,
+main section.horraires {
     width: 1300px;
     margin: auto;
+}
+
+main section.horraires,
+section.tarifs,
+footer {
+    padding-top: 75px;
 }
 
 /*
@@ -155,10 +162,6 @@ section.video-preview video {
  * Tarifs
 *****************/
 
-section.tarifs {
-    padding-top: 75px;
-}
-
 .tarifs table {
     width: 100%;
     text-align: center;
@@ -179,6 +182,56 @@ section.tarifs table tbody tr {
 
 section.tarifs table tbody tr:nth-child(even) {
     background-color: #fafafa;
+}
+
+/*
+ * Horraires
+***************/
+
+section.horraires table {
+    width: 500px;
+}
+
+section.horraires table,
+section.horraires table tr,
+section.horraires table td {
+    border: solid 1px #6c2400;
+    border-collapse: collapse;
+}
+
+section.horraires table thead {
+    width: 100px;
+    height: 50px;
+}
+
+/*
+ * FOOTER
+**************/
+
+footer {
+    margin-top: 60px;
+    background-color: #182433;
+    color: #FFF;
+}
+
+footer .social-media,
+footer .copyright {
+    width: 300px;
+    margin: auto;
+}
+
+footer .social-media img {
+    width: 30px;
+}
+
+footer .copyright {
+    /* font-family: 'Kristi', cursive; */
+    font-size: 1.3em;
+}
+
+footer .copyright span {
+    font-family: 'Kristi', cursive;
+    font-size: 1.5em;
 }
 
 /*
