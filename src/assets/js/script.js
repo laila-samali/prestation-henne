@@ -1,6 +1,23 @@
+/**********************************************************
+ * Évenement globaux
+**********************************************************/
+
+document.onload = function() {
+    var main = document.getElementsByTagName("main");
+    while(true) {
+        if (main.offsetTop > 0) {
+            console.log("Position : " + main.offsetTop);
+        }
+    }
+};
+
+/**********************************************************
+ * Gestion du calendrier
+**********************************************************/
+
 /*
  * Retourne le nom du jours de la semaine
- ****************************************/
+*****************************************/
 function calculerJour(numeroJour) {
     return ["Lundi", "Mardi", "Mercredi", 
            "Jeudi", "Vendredi", "Samedi", 
@@ -9,7 +26,7 @@ function calculerJour(numeroJour) {
 
 /*
  * Calculer le nombre de jours dans un mois
- *****************************************/
+******************************************/
 function joursDansMois(date) {
     return new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
 }
@@ -17,7 +34,7 @@ function joursDansMois(date) {
 /*
  * Calcule tout les jours du mois et les stockes
  * dans un tableau
- ***********************************************/
+************************************************/
 function caclculerDates(date) {
     nombreDeJours = joursDansMois(date);
     var calendrier = new Array();

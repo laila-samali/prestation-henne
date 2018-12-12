@@ -2,7 +2,8 @@
 
 Projet scolaire, basé sur le (X)HTML , CSS et Javascript.
 
-Consignes : 
+Consignes :
+
 + Aucun caractères spéciales dans les noms de fichiers et répertoires
 + Au moins 4 pages différentes, écrites en XHTML sauf celles utilisant des balises propres à HTML5
 + Au moins 2 "parties" par page dont au moins une contenant un sommaire, utilisant une image cliquable
