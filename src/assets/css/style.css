@@ -13,7 +13,7 @@ a {
  * TEMPLATE
 */
 
-body.home {
+body {
     display: grid;
     /*4 colonnes qui prennent toute la largeur de la page chacune*/
     grid-template: "nav nav nav nav"
@@ -23,6 +23,10 @@ body.home {
     margin: 0;
     font-family: 'Noto Serif TC', serif;
     font-size: 16px;
+}
+
+body.home header {
+    display: none;
 }
 
 nav {
