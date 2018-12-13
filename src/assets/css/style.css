@@ -1,87 +1,111 @@
-/*
-* Régles globales
-*****************/
-
 @import url('https://fonts.googleapis.com/css?family=Kristi|Barlow|Noto+Serif+TC');
-/* font-family: 'Kristi', cursive; */
-/* font-family: 'Barlow', sans-serif; */
-/* font-family: 'Noto Serif TC', serif;  */
+
+/*
+ * RÈGLES GLOBAL :
+*/
 
 a {
     text-decoration: none;
     color: #965041;
 }
 
-body {
+/*
+ * TEMPLATE
+*/
+
+body.home {
+    display: grid;
+    /*4 colonnes qui prennent toute la largeur de la page chacune*/
+    grid-template: "nav nav nav nav"
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
     margin: 0;
-    font-family: 'Noto Serif TC', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 16px;
 }
 
-/*
- * HEADER
-**************/
+nav {
+    grid-area: nav;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 80px;
+    border-bottom: solid 2px #DDD;
+    background-color: #F3E8DFEE;
+}
 
 header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100vh;
+    grid-area: header;
+    height: calc(100vh - 80px);
     background: url("../medias/img/Drawing-process-of-henna-menhdi-ornamenton-woman-\'s-hand.jpg");
     background-size: cover;
     color: #FFF;
     font-family: 'Barlow', sans-serif;
 }
 
-header nav {
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    height: 75px;
-    border-bottom: solid 2px #DDD;
-    background-color: #F3E8DF;
+main {
+    grid-area: main;
+    height: auto;;
 }
 
-header nav a.logo,
-header nav ul {
-    display: inline-block;
+footer {
+    grid-area: footer;
+    height: 100px;
+    background-color: #182433;
+    color: #FFF;
 }
 
-header .logo {
-    margin: 6px 60px;
+/*
+ * NAVIGATION
+*/
+
+nav,
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+nav .logo {
     font-family: 'Kristi', cursive;
     font-size: 2.5em;
     color: #965041;
 }
 
-header ul {
-    position: relative;
-    right: -50%;
-}
 
-header li {
+nav li {
     list-style: none;
     display: inline-block;
     margin: auto 12px;
 }
 
-nav + div {
+/*
+ * HEADER 
+*/
+
+header div {
     position: relative;
-    bottom: -300px;
-    padding-left: 100px;
-    padding-right: 100px;
+    top: 300px;
+    width: 80%;
+    margin: auto;
 }
 
-nav + div h3 {
+header div h3 {
     font-size: xx-large;
 }
 
-nav + div p {
-    width: 90%;
+header div p {
     font-size: x-large;
 }
 
-nav + div a {
+header div a {
     padding: 12px;
     border: solid 1px #FFF;
     border-radius: 6px;
@@ -90,7 +114,7 @@ nav + div a {
     font-size: 1.3em;
 }
 
-nav + div a:hover {
+header div a:hover {
     border-color: rgb(248, 127, 71);
     background-color: #FFF;
     color: #182433;
@@ -98,32 +122,19 @@ nav + div a:hover {
 
 /*
  * MAIN
-********/
+*/
 
 main {
-    position: absolute;
-    top: 100vh;
-    width: 100%;
-    padding-top: 80px;
-    /* background-color: #7D5; */
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
 }
 
-main section.video-preview,
-main section.tarifs,
-main section.horraires {
-    width: 1300px;
-    margin: auto;
+main section {
+    margin-top: 30px;
 }
 
-main section.horraires,
-section.tarifs,
-footer {
-    padding-top: 75px;
-}
-
-/*
- * Video
-*************/
+/* Vidéo */
 
 section.video-preview {
     height: 350px;
@@ -158,9 +169,7 @@ section.video-preview video {
     border-radius: 10px 0 0 0;
 }
 
-/*
- * Tarifs
-*****************/
+/* Tarifs */
 
 .tarifs table {
     width: 100%;
@@ -184,9 +193,7 @@ section.tarifs table tbody tr:nth-child(even) {
     background-color: #fafafa;
 }
 
-/*
- * Horraires
-***************/
+/* Horraires */
 
 section.horraires table {
     width: 500px;
@@ -206,10 +213,10 @@ section.horraires table thead {
 
 /*
  * FOOTER
-**************/
+*/
 
 footer {
-    margin-top: 60px;
+    padding-top: 12px;
     background-color: #182433;
     color: #FFF;
 }
@@ -231,39 +238,5 @@ footer .copyright {
 
 footer .copyright span {
     font-family: 'Kristi', cursive;
-    font-size: 1.5em;
-}
-
-/*
- * Calendrier
-**************/
-
-.calendar {
-    width: 400px;
-    height: 400px;
-    border-collapse: collapse;
-    background-color: #182433;
-    color: #FFF;
-}
-
-.calendar thead i.fa-angle-left,
-.calendar thead i.fa-angle-right {
-    font-size: 1.5em;
-}
-
-.calendar select {
-    border: none;
-    appearance: none;
-    background-color: transparent;
-    color: inherit;
-}
-
-.calendar select {
-    -webkit-appearance: none;
-    appearance: none;
-}
-
-.calendar tbody td {
-    text-align: center;
     font-size: 1.5em;
 }
