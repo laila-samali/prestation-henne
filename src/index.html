@@ -15,10 +15,37 @@
         <ul>
             <li id="faq"><a href="pages/faq.html">À propos</a></li>
             <li id="galerie"><a href="pages/galerie.html">Galerie</a></li>
-            <li id="login"><a href="login.html">Se connecter</a></li>
+            <li id="login"><a onclick="afficherLoginForm()">Se connecter</a></li>
             <li id="signin"><a href="pages/signin.html">S'enregistrer</a></li>
             <li id="contact"><a href="pages/contact.html">Nous contacter</a></li>
         </ul>
+        <div class="login-modal">
+            <form action="" method="post">
+                <span class="close" onclick="fermerModal()">&times;</span>
+                <div class="avatar">
+                    <img src="assets/medias/img/boy.svg" alt="Avatar">
+                </div>
+
+                <div class="container">
+                    <label for="username">Identifiant</label>
+                    <input type="text" placeholder="Entrez votre identifiant" name="username" required>
+
+                    <label for="password">Identifiant</label>
+                    <input type="password" placeholder="Entrez votre mot de passe" name="password" required>
+
+                    <button type="submit">Connexion</button>
+
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Se souvenir de moi
+                    </label>
+                </div>
+
+                <div class="container">
+                    <button type="button" class="cancel">Annuler</button>
+                    <span></span><a href="#">Mot de passe</a> oublier ?</span>
+                </div>
+            </form>
+        </div>
     </nav>
     <header>
         <div>
@@ -233,21 +260,21 @@
     <footer>
         <div class="social-media">
             <a href="https://github.com/laila-samali/prestation-henne" target="_blank">
-                <img src="../assets/medias/img/github-blue.svg" alt="">
+                <img src="assets/medias/img/github-blue.svg" alt="">
             </a>
 
             <a href="https://www.instagram.com/hennanatural_by_lailadijon/" target="_blank">
-                <img src="../assets/medias/img/instagram.svg" alt="">
+                <img src="assets/medias/img/instagram.svg" alt="">
             </a>
             
             <a href="" target="_blank">
-                <img src="../assets/medias/img/twitter.svg" alt="">
+                <img src="assets/medias/img/twitter.svg" alt="">
             </a>
             <a href="https://www.facebook.com/Hennanatural-by-Laila-Tutuage--223368148425120/" target="_blank">
-                <img src="../assets/medias/img/facebook.svg" alt="">
+                <img src="assets/medias/img/facebook.svg" alt="">
             </a>
             <a href="https://www.pinterest.fr/3samali210/page-prestation-henne/" target="_blank">
-                <img src="../assets/medias/img/pinterest.svg" alt="">
+                <img src="assets/medias/img/pinterest.svg" alt="">
             </a>
         </div>
         <div class="copyright">
