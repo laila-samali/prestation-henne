@@ -43,20 +43,6 @@ La façon la plus traditionnelle d’utiliser le henné au Qatar consiste à ser
 
 #### Origine
 
-Le mot horem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellendus assumenda dolores amet, id voluptatibus ea? Provident numquam magnam aspernatur omnis earum maiores illum beatae! Ullam beatae veritatis placeat error.
-
-￼nné est d’origine sémitique et se rapporte à la tendresse. Dans certaines régions de l’Indorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellendus assumenda dolores amet, id voluptatibus ea? Provident numquam magnam aspernatur omnis earum maiores illum beatae! Ullam beatae veritatis placeat error.
-
-￼ où il est très utilisé, il est aussi appelé Mehandi. Son usage pour parer les femmes rorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellendus assumenda dolores amet, id voluptatibus ea? Provident numquam magnam aspernatur omnis earum maiores illum beatae! Ullam beatae veritatis placeat error.
-
-￼monte à 9 000 ans et dans environ 60 pays. Des traces de son utilisation ont été retrouvéorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellendus assumenda dolores amet, id voluptatibus ea? Provident numquam magnam aspernatur omnis earum maiores illum beatae! Ullam beatae veritatis placeat error.
-
-￼s dans de nombreuses civilisations antiques telles que : l’archipel des Cyclades (3000-40orem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellendus assumenda dolores amet, id voluptatibus ea? Provident numquam magnam aspernatur omnis earum maiores illum beatae! Ullam beatae veritatis placeat error.
-
-￼0 av. J.C.), l’ancienne cité cananéenne d’Ugarit à Ras Shamra en Syrie (2100 av. J.C.), Corem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellendus assumenda dolores amet, id voluptatibus ea? Provident numquam magnam aspernatur omnis earum maiores illum beatae! Ullam beatae veritatis placeat error.
-
-￼naan, la civilisation minoenne (Crète antique) et Mycènes (Grèce antique). Les motifs décoratifs célébraient le plus souvent la fertilité et la sexualité féminines. Cependant, les Egyptiens de l’Antiquité l’employaient pour ses qualités médicinales et odorantes comme en témoigne la momie de Ramsès II dont les cheveux, les mains et les pieds en étaient couverts.
-
 Dans la région orientale de la Méditerranée et en Egypte, les Juifs et les premiers Chrétiens se servaient du henné pour orner les mains des femmes. Les Musulmans l’ont ensuite intégré dans leurs traditions et ont répandu son usage avec l’expansion de l’islam jusqu’en Espagne où il y était cultivé et utilisé par les Juifs, les Chrétiens et les Maures du 9ème siècle jusqu’à l’Inquisition espagnole. Le henné est également apparu très tôt en Inde où il est toujours employé par les Musulmans et les Hindous. Certains disent que c'est un arbre du paradis, d'autres prétendent que c'est de la terre du paradis («El-Henna trab el-djenna»). Toutefois, henné est un arbrisseau qui peut devenir arbre après des années, en atteignant un peu plus d'un mètre de hauteur ; ses feuilles sont petites et vertes, il est garni de fleurs blanches et son bois est blanc. Il pousse généralement sur les terres pré sahariennes et sahariennes. L'usage du henné est très ancien et était apprécié pour ses bienfaits thérapeutiques.
 
 En effet, cette plante était recommandée par les herboristes, comme médicament, contre les irritations de la bouche des enfants en applications, sur les zones atteintes, d'une pâte obtenue en mélangeant du henné réduit en poudre et du beurre pur. Cette même plante était indiquée pour les abcès, dont elle apaise la douleur et cicatrice la peau. Les feuilles de henné, macérées dans de l'eau douce, sont supposées guérir le début de la lèpre tuberculeuse. Nos grands-mères, conscientes des bienfaits du henné, le recommandaient aussi en infusion contre la jaunisse. Elles savaient que la pâte de henné salée soulage les douleurs aux pieds et en guérit les gerçures. 
@@ -81,12 +67,11 @@ Voilà vous savez tout sur l'acidité et le repos de la pâte: c'est simple net 
 
 Vous êtes nombreuses à me demander si on peut mettre une huile végétale dans le henné.
 J'avais déjà soulevé cela il y a plusieurs mois, donc en fait:
-
 Pour tous les hennés naturels rouges ou cuivrés la réponse est: OUI ON PEUT
 
 En effet un mythe circulait un petit peu de partout sur internet à une époque... et pendant longtemps, on a cru à tort que ça empêchait la prise… Mais ce n'est valable en réalité que pour l'indigo et le katam ; En effet ça pourrait altérer le résultat… Juste une petite précision… Comme on doit laisser place à la phase d'oxydation pendant 72 heures, il ne faut pas en mettre trop, sinon on aurait besoin d'un shampoing hein. Donc une cuillère à café suffit pour les cheveux secs bien sûr. Pour les cheveux frisés ou afros métissées on peut mettre largement une cuillère à soupe ! (ils vont absorber l'huile). On peut faire tiédir l'huile aussi pour de meilleurs résultats. (Sinon pour les cheveux gras les agents hydratants suffisent).
 
-### Henné dans la coloration
+### Henné dans la colorationSS
 
 On peut varier les plaisirs bien sûrs hein😃😉et le Feeling joue beaucoup quand je vous conseille 💚❤💙 N'oubliez pas que la force de ce groupe est "le conseil personnalisé" au cas par cas. Pourquoi ces choix de hennés ? Tout simplement parce que :
 

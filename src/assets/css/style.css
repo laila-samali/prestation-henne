@@ -233,6 +233,13 @@ main.faq .contenu {
     background-color: #FF5;
 }
 
+.sommaire{
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
 /*
  * FOOTER
 */
