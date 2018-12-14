@@ -43,7 +43,19 @@ La façon la plus traditionnelle d’utiliser le henné au Qatar consiste à ser
 
 #### Origine
 
-Le mot henné est d’origine sémitique et se rapporte à la tendresse. Dans certaines régions de l’Inde où il est très utilisé, il est aussi appelé Mehandi. Son usage pour parer les femmes remonte à 9 000 ans et dans environ 60 pays. Des traces de son utilisation ont été retrouvées dans de nombreuses civilisations antiques telles que : l’archipel des Cyclades (3000-4000 av. J.C.), l’ancienne cité cananéenne d’Ugarit à Ras Shamra en Syrie (2100 av. J.C.), Canaan, la civilisation minoenne (Crète antique) et Mycènes (Grèce antique). Les motifs décoratifs célébraient le plus souvent la fertilité et la sexualité féminines. Cependant, les Egyptiens de l’Antiquité l’employaient pour ses qualités médicinales et odorantes comme en témoigne la momie de Ramsès II dont les cheveux, les mains et les pieds en étaient couverts.
+Le mot horem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellendus assumenda dolores amet, id voluptatibus ea? Provident numquam magnam aspernatur omnis earum maiores illum beatae! Ullam beatae veritatis placeat error.
+
+￼nné est d’origine sémitique et se rapporte à la tendresse. Dans certaines régions de l’Indorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellendus assumenda dolores amet, id voluptatibus ea? Provident numquam magnam aspernatur omnis earum maiores illum beatae! Ullam beatae veritatis placeat error.
+
+￼ où il est très utilisé, il est aussi appelé Mehandi. Son usage pour parer les femmes rorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellendus assumenda dolores amet, id voluptatibus ea? Provident numquam magnam aspernatur omnis earum maiores illum beatae! Ullam beatae veritatis placeat error.
+
+￼monte à 9 000 ans et dans environ 60 pays. Des traces de son utilisation ont été retrouvéorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellendus assumenda dolores amet, id voluptatibus ea? Provident numquam magnam aspernatur omnis earum maiores illum beatae! Ullam beatae veritatis placeat error.
+
+￼s dans de nombreuses civilisations antiques telles que : l’archipel des Cyclades (3000-40orem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellendus assumenda dolores amet, id voluptatibus ea? Provident numquam magnam aspernatur omnis earum maiores illum beatae! Ullam beatae veritatis placeat error.
+
+￼0 av. J.C.), l’ancienne cité cananéenne d’Ugarit à Ras Shamra en Syrie (2100 av. J.C.), Corem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellendus assumenda dolores amet, id voluptatibus ea? Provident numquam magnam aspernatur omnis earum maiores illum beatae! Ullam beatae veritatis placeat error.
+
+￼naan, la civilisation minoenne (Crète antique) et Mycènes (Grèce antique). Les motifs décoratifs célébraient le plus souvent la fertilité et la sexualité féminines. Cependant, les Egyptiens de l’Antiquité l’employaient pour ses qualités médicinales et odorantes comme en témoigne la momie de Ramsès II dont les cheveux, les mains et les pieds en étaient couverts.
 
 Dans la région orientale de la Méditerranée et en Egypte, les Juifs et les premiers Chrétiens se servaient du henné pour orner les mains des femmes. Les Musulmans l’ont ensuite intégré dans leurs traditions et ont répandu son usage avec l’expansion de l’islam jusqu’en Espagne où il y était cultivé et utilisé par les Juifs, les Chrétiens et les Maures du 9ème siècle jusqu’à l’Inquisition espagnole. Le henné est également apparu très tôt en Inde où il est toujours employé par les Musulmans et les Hindous. Certains disent que c'est un arbre du paradis, d'autres prétendent que c'est de la terre du paradis («El-Henna trab el-djenna»). Toutefois, henné est un arbrisseau qui peut devenir arbre après des années, en atteignant un peu plus d'un mètre de hauteur ; ses feuilles sont petites et vertes, il est garni de fleurs blanches et son bois est blanc. Il pousse généralement sur les terres pré sahariennes et sahariennes. L'usage du henné est très ancien et était apprécié pour ses bienfaits thérapeutiques. 
 
