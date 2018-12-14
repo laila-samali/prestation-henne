@@ -118,3 +118,14 @@ function genererCalendrier(date) {
         
     }
 }
+
+/**********************************************************
+ * Galerie
+**********************************************************/
+
+galerie = document.querySelectorAll(".galerie img");
+
+for (var i = 0; i < galerie.length; i++) {
+    var image = galerie[i];
+    // ...
+}

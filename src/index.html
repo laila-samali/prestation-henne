@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Chanfi Attoumani, Samali Laila">
     <title>Prestation Henne</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="home">
@@ -15,7 +15,7 @@
         <ul>
             <li id="faq"><a href="pages/faq.html">À propos</a></li>
             <li id="galerie"><a href="pages/galerie.html">Galerie</a></li>
-            <li id="login"><a onclick="afficherLoginForm()">Se connecter</a></li>
+            <li id="login"><span onclick="afficherLoginForm()">Se connecter</span></li>
             <li id="signin"><a href="pages/signin.html">S'enregistrer</a></li>
             <li id="contact"><a href="pages/contact.html">Nous contacter</a></li>
         </ul>
@@ -28,10 +28,14 @@
 
                 <div class="container">
                     <label for="username">Identifiant</label>
+                    <br>
                     <input type="text" placeholder="Entrez votre identifiant" name="username" required>
+                    <br>
 
                     <label for="password">Identifiant</label>
+                    <br>
                     <input type="password" placeholder="Entrez votre mot de passe" name="password" required>
+                    <br>
 
                     <button type="submit">Connexion</button>
 
@@ -49,16 +53,16 @@
     </nav>
     <header>
         <div>
-            <h3>Molestiae minus cupiditate saepe aliquam</h3>
-            <p>Debitis recusandae laborum harum? Facilis, possimus. Rem quam nav + div a porro minus quisquam, illo atque error voluptate quod. Voluptatum sequi vitae magni. Reprehenderit.</p>
+            <h3>Spécialiste dans l’art du henné pour l’animation</h3>
+            <p>Hannaya vous propose ses services de tatouage au henné et de décoration d’objets pour vous-même ou pour offrir en cadeau original !</p>
             <a href="pages/contact.html">Commander</a>
         </div>
     </header>
     <main>
         <section class="video-preview">
             <div class="description">
-                <h2>Corrupti odio perspiciatis! Praesentium.</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora repellendus assumenda dolores amet, id voluptatibus ea? Provident numquam magnam aspernatur omnis earum maiores illum beatae! Ullam beatae veritatis placeat error.</p>
+                <h2>Offrez-vous un instant inoubliable au henné naturel.</h2>
+                <p>Vous pourrez choisir parmi divers modèles et différents styles. Je peux également réaliser spécialement pour vous des créations uniques qui respecteront votre tradition. Je peux appliquer des paillettes, strass et/ou perles en complément du henné.</p>
                 <img src="assets/medias/img/mandala.svg" alt="">
             </div>
             <video width="320" height="240" poster="assets/medias/img/Poster vidéo.png" controls>
@@ -157,18 +161,18 @@
         </section>
 
         <section class="horraires">
-            <h1>Nos horraires</h1>
+            <h1>Nos horraires d'ouverture</h1>
             <table>
                 <thead>
                     <tr>
-                        <td></td>
-                        <td>Lundi</td>
-                        <td>Mardi</td>
-                        <td>Mercredi</td>
-                        <td>Jeudi</td>
-                        <td>Vendredi</td>
-                        <td>Samedi</td>
-                        <td>Dimanche</td>
+                        <th></th>
+                        <th>Lundi</th>
+                        <th>Mardi</th>
+                        <th>Mercredi</th>
+                        <th>Jeudi</th>
+                        <th>Vendredi</th>
+                        <th>Samedi</th>
+                        <th>Dimanche</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -176,57 +180,57 @@
                         <th rowspan="2">8h00 - 10h00</th>
                         <td></td>
                         <td></td>
+                        <td class="ouvert"></td>
                         <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="ouvert"></td>
                         <td></td>
                         <td></td>
                     </tr>
                     <tr>
                         <td></td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="ouvert"></td>
+                        <td ></td>
+                        <td class="ouvert"></td>
                         <td></td>
                         <td></td>
                     </tr>
 
                     <tr>
                         <th rowspan="2">10h00 - 12h00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
                         <td></td>
                     </tr>
 
                     <tr>
                         <th rowspan="2">14h00 - 16h00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
                         <td></td>
                         <td></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
+                        <td class="ouvert"></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -234,7 +238,7 @@
                         
                     <tr>
                         <th rowspan="2">16h00 - 18h00</th>
-                        <td></td>
+                        <td class="ouvert"></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -243,7 +247,7 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td class="ouvert"></td>
                         <td></td>
                         <td></td>
                         <td></td>

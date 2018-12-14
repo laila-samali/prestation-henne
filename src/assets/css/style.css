@@ -98,6 +98,11 @@ nav li {
     list-style: none;
     display: inline-block;
     margin: auto 12px;
+    cursor: pointer;
+}
+
+nav #login {
+    color: #965041;
 }
 
 /** Formulaire de connexion **/
@@ -254,19 +259,45 @@ section.tarifs table tbody tr:nth-child(even) {
 /* Horraires */
 
 section.horraires table {
-    width: 500px;
+    table-layout: fixed;
+    width: 100%;
+    min-height: 300px;
 }
 
 section.horraires table,
+section.horraires table th,
 section.horraires table tr,
 section.horraires table td {
-    border: solid 1px #6c2400;
+    border: solid 1px #FCFCFC30;
     border-collapse: collapse;
 }
 
 section.horraires table thead {
     width: 100px;
     height: 50px;
+}
+
+.horraires th {
+    background-color: #182433;
+    color: #FFF;
+}
+
+td.ouvert {
+    background-color: hsl(34, 53%, 82%);
+background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px
+  ),
+repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px
+);
 }
 
 /****** faq.html ******/
@@ -294,6 +325,19 @@ main.faq .contenu {
     top: 0;
     display: inline-block;
     vertical-align: top;
+}
+
+/****** galerie.html ******/
+
+section.galerie {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.galerie img {
+    width: 300px;
+    height: 300px;
+    padding: 2px;
 }
 
 /*
