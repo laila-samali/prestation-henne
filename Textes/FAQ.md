@@ -17,13 +17,14 @@ qui respecteront votre tradition. Je peux appliquer des paillettes, strass et/ou
  Aucun minimum n’est requis pour toute prestation effectuée à mon domicile. Les prix varient en fonction de la complexité, 
  du remplissage et de la taille du motif.
 Rendez-vous de groupe, individuel, henné de mariage…
-Vous désirez prendre rendez-vous ou établir un devis pour un henné, n’hésitez pas à me contacter en vous assurant d’inclure 
-les informations suivantes :
-    Type d’évènement,
-    Nombre de personne ou invités prévus,
-    Date et heure de prestation,,
-    Adresse afin d’évaluer les frais éventuels de déplacement*,
-    Une photo d’un modèle de votre choix si vous le souhaitez.
+Vous désirez prendre rendez-vous ou établir un devis pour un henné, n’hésitez pas à me contacter en vous assurant d’inclure les informations suivantes :
+
+    + Type d’évènement,
+    + Nombre de personne ou invités prévus,
+    + Date et heure de prestation,,
+    + Adresse afin d’évaluer les frais éventuels de déplacement*,
+    + Une photo d’un modèle de votre choix si vous le souhaitez.
+
 Vous pouvez consulter mes prestations sur la galerie de photos de henné.
 
 ## faq.html
