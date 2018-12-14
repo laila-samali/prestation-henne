@@ -15,7 +15,7 @@ a {
 
 body {
     display: grid;
-    /*4 colonnes qui prennent toute la largeur de la page chacune*/
+    /*4 lignes constituer de 4 colonnes, qui prennent toute la largeur de la page chacune*/
     grid-template: "nav nav nav nav"
     "header header header header"
     "main main main main"
@@ -23,10 +23,6 @@ body {
     margin: 0;
     font-family: 'Noto Serif TC', serif;
     font-size: 16px;
-}
-
-body.home header {
-    display: none;
 }
 
 nav {
@@ -131,12 +127,14 @@ header div a:hover {
 main {
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    padding: 30px;
 }
 
 main section {
-    margin-top: 30px;
+    margin-top: auto;
 }
+
+/****** index.html ******/
 
 /* Vidéo */
 
@@ -213,6 +211,26 @@ section.horraires table td {
 section.horraires table thead {
     width: 100px;
     height: 50px;
+}
+
+/****** faq.html ******/
+
+main.faq {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+main.faq .sommaire {
+    width: 25%;
+    background-color: #43A;
+}
+
+main.faq .contenu {
+    width: 75%;
+    background-color: #FF5;
 }
 
 /*

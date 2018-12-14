@@ -1,9 +1,10 @@
-###"c'est quoi cette Prestation de henné" 
+# Textes à mettrre sur les différentes pages
 
-Henné du Paradis vous propose ses services de tatouage au henné et de décoration d’objets pour vous-même ou pour offrir
-en cadeau original !
-Dans le cadre d’un évènement, faites appel à une artiste spécialisée dans l’art du henné pour l’animation. Offrez-vous un bijou de peau,
-un instant authentique et inoubliable au henné naturel.
+## ***index.html***
+
+### C'est quoi cette Prestation de henné
+
+Henné du Paradis vous propose ses services de tatouage au henné et de décoration d’objets pour vous-même ou pour offrir en cadeau original ! Dans le cadre d’un évènement, faites appel à une artiste spécialisée dans l’art du henné pour l’animation. Offrez-vous un bijou de peau, un instant authentique et inoubliable au henné naturel.
 Pour vos évènements festifs (fiançailles, mariages, fêtes, baptêmes, aïd ou tout simplement pour un plaisir) un minimum d’une heure 
 de prestation est demandé pour tout déplacement.
 Que ce soit juste pour un petit moment de plaisir ou embellir vos mains pour briller de mille feux le temps d’une grande occasion
@@ -25,10 +26,9 @@ les informations suivantes :
     Une photo d’un modèle de votre choix si vous le souhaitez.
 Vous pouvez consulter mes prestations sur la galerie de photos de henné.
 
-###"Les questions:"
+## faq.html
 
-1) Qu’est-ce-que le henné ???
-
+### Qu’est-ce-que le henné
 
 Autres noms Henna , mehandi, mignonnette et plante du paradis.
 Le Lawsonia inermis est un arbuste de la famille des Lytracees dont la hauteur varie de un à 6 m de haut. 
@@ -49,7 +49,7 @@ l'ingrédient actif responsable de cette couleur s'appelle le Lawsone.
 Le Lawsonia répandu en Inde en Iran et en Afrique du Nord et au Soudan. 
 Il est aussi produit en Arabie en Égypte et en Syrie.
 
-2) Utilisations du henne???
+### Utilisations du henne
 
 
 ATTENTION !
@@ -106,7 +106,7 @@ Les femmes s'enduisaient aussi les mains et les pieds de henné en s'ingéniant 
 des formes géométriques compliquées parfois, mais très agréables à admirer. 
 
 
-3) Ajouter d'acide ou repos du henné???
+### Ajouter d'acide ou repos du henné
 
 
 Si vous souhaitez accentuer la couleur de votre henné, intensifier la couleur rouge ou le foncer, alors n'ajoutez surtout pas de citron ou 
@@ -132,7 +132,7 @@ Avec les racines qui repoussent tout ça.... c'est pas évident de s'éloigner b
 c'est pour cela que je conseille de ne pas trop vous en éloigner afin d'avoir un entretien assez facile , pas trop fastidieux!
 Voilà vous savez tout sur l'acidité et le repos de la pâte: c'est simple net et précis !
 
-4) Huile dans le henné???
+### Huile dans le henné
 
 Vous êtes nombreuses à me demander si on peut mettre une huile végétale dans le henné.
 J'avais déjà soulevé cela il y a plusieurs mois, donc en fait:
@@ -149,14 +149,17 @@ Pour les cheveux frisés ou afros métissées on peut mettre largement une cuill
 On peut faire tiédir l'huile aussi pour de meilleurs résultats. (Sinon pour les cheveux gras les agents hydratants suffisent). 
 
 
-5) Henné dans la coloration???
+### Henné dans la coloration
 
 On peut varier les plaisirs bien sûrs hein😃😉et le Feeling joue beaucoup quand je vous conseille 💚❤💙
 N'oubliez pas que la force de ce groupe est "le conseil personnalisé" au cas par cas.
 Pourquoi ces choix de hennés ?
 Tout simplement parce que :
-1.  Quand la couleur du 2ème temps dégorge avec les shampoings, on retrouvera les reflets du henné utilisé en 1er temps.
-2.  Certains sont plus pigmentés et donc je les conseille par rapport aux cheveux blancs résistants par ex.
+
++ Quand la couleur du 2ème temps dégorge avec les shampoings, on retrouvera les reflets du henné utilisé en 1er temps.
+
++ Certains sont plus pigmentés et donc je les conseille par rapport aux cheveux blancs résistants par ex.
+
 Le henné du Soudan sera conseillé pour les désirs de noisettes, marrons, bruns ou noirs, car tout d'abord il est très couvrant et
 il fonce au roux maronné en général.
 (Encore une fois tout dépend de la base)
@@ -172,6 +175,4 @@ Idéalement :
 Ajouter 2 Cuil à soupe du TRIO ABB (mélange de poudres ayurvédiques) à votre henné, cela intensifie la couleur et soigne les cheveux aussi ! (Pour toutes les teintes sauf les cuivrés)
 Tous ces conseils sont donnés à titre indicatif et pour obtenir la couleur la + parfaite !
 Comme je l'ai noté au début :
-"On peut varier les plaisirs bien sûr"😘 
-
-  
+"On peut varier les plaisirs bien sûr"😘
