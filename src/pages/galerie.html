@@ -13,17 +13,17 @@
     <nav>
         <a href="index.html" class="logo">Hannaya</a href="index.html">
         <ul>
-            <li id="faq"><a href="pages/faq.html">À propos</a></li>
-            <li id="galerie"><a href="pages/galerie.html">Galerie</a></li>
+            <li id="faq"><a href="faq.html">À propos</a></li>
+            <li id="galerie"><a href="galerie.html">Galerie</a></li>
             <li id="login"><span onclick="afficherLoginForm()">Se connecter</span></li>
-            <li id="signin"><a href="pages/signin.html">S'enregistrer</a></li>
-            <li id="contact"><a href="pages/contact.html">Nous contacter</a></li>
+            <li id="signin"><a href="signin.html">S'enregistrer</a></li>
+            <li id="contact"><a href="contact.html">Nous contacter</a></li>
         </ul>
         <div class="login-modal">
             <form action="" method="post">
                 <span class="close" onclick="fermerModal()">&times;</span>
                 <div class="avatar">
-                    <img src="assets/medias/img/boy.svg" alt="Avatar">
+                    <img src="../assets/medias/img/boy.svg" alt="Avatar">
                 </div>
 
                 <div class="container">
@@ -52,35 +52,36 @@
         </div>
     </nav>
 
-    <main>
-        Contenu
-        <audio controls>
+    <main class="galerie">
+        <!-- <audio controls>
             <source src="../assets/medias/audios/Bison-SoundBible.com-1105726036.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
-        </audio>
-        <section class="galerie">
-            <img src="../assets/medias/img/galerie1.jpg" alt="">
-            <img src="../assets/medias/img/galerie2.jpg" alt="">
-            <img src="../assets/medias/img/galerie3.jpg" alt="">
-            <img src="../assets/medias/img/galerie4.jpg" alt="">
-            <img src="../assets/medias/img/galerie5.jpg" alt="">
-            <img src="../assets/medias/img/galerie1.jpg" alt="">
-            <img src="../assets/medias/img/galerie2.jpg" alt="">
-            <img src="../assets/medias/img/galerie3.jpg" alt="">
-            <img src="../assets/medias/img/galerie4.jpg" alt="">
-            <img src="../assets/medias/img/galerie5.jpg" alt="">
-            <img src="../assets/medias/img/galerie1.jpg" alt="">
-            <img src="../assets/medias/img/galerie2.jpg" alt="">
-            <img src="../assets/medias/img/galerie3.jpg" alt="">
-            <img src="../assets/medias/img/galerie4.jpg" alt="">
-            <img src="../assets/medias/img/galerie5.jpg" alt="">
-            <img src="../assets/medias/img/galerie1.jpg" alt="">
-            <img src="../assets/medias/img/galerie2.jpg" alt="">
-            <img src="../assets/medias/img/galerie3.jpg" alt="">
-            <img src="../assets/medias/img/galerie4.jpg" alt="">
-            <img src="../assets/medias/img/galerie5.jpg" alt="">
-        </section>
+        </audio> -->
 
+        <img src="../assets/medias/img/galerie2.jpg" alt="" class="preview">
+
+        <section class="galerie">
+            <img src="../assets/medias/img/galerie1.jpg" alt="" onclick="aggrandir(1)">
+            <img src="../assets/medias/img/galerie2.jpg" alt="" onclick="aggrandir(2)">
+            <img src="../assets/medias/img/galerie3.jpg" alt="" onclick="aggrandir(3)">
+            <img src="../assets/medias/img/galerie4.jpg" alt="" onclick="aggrandir(4)">
+            <img src="../assets/medias/img/galerie5.jpg" alt="" onclick="aggrandir(5)">
+            <img src="../assets/medias/img/galerie1.jpg" alt="" onclick="aggrandir(1)">
+            <img src="../assets/medias/img/galerie2.jpg" alt="" onclick="aggrandir(2)">
+            <img src="../assets/medias/img/galerie3.jpg" alt="" onclick="aggrandir(3)">
+            <img src="../assets/medias/img/galerie4.jpg" alt="" onclick="aggrandir(4)">
+            <img src="../assets/medias/img/galerie5.jpg" alt="" onclick="aggrandir(5)">
+            <img src="../assets/medias/img/galerie1.jpg" alt="" onclick="aggrandir(1)">
+            <img src="../assets/medias/img/galerie2.jpg" alt="" onclick="aggrandir(2)">
+            <img src="../assets/medias/img/galerie3.jpg" alt="" onclick="aggrandir(3)">
+            <img src="../assets/medias/img/galerie4.jpg" alt="" onclick="aggrandir(4)">
+            <img src="../assets/medias/img/galerie5.jpg" alt="" onclick="aggrandir(5)">
+            <img src="../assets/medias/img/galerie1.jpg" alt="" onclick="aggrandir(1)">
+            <img src="../assets/medias/img/galerie2.jpg" alt="" onclick="aggrandir(2)">
+            <img src="../assets/medias/img/galerie3.jpg" alt="" onclick="aggrandir(3)">
+            <img src="../assets/medias/img/galerie4.jpg" alt="" onclick="aggrandir(4)">
+            <img src="../assets/medias/img/galerie5.jpg" alt="" onclick="aggrandir(5)">
+        </section>
     </main>
 
     <footer>

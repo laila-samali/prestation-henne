@@ -13,17 +13,17 @@
     <nav>
         <a href="index.html" class="logo">Hannaya</a href="index.html">
         <ul>
-            <li id="faq"><a href="pages/faq.html">À propos</a></li>
-            <li id="galerie"><a href="pages/galerie.html">Galerie</a></li>
+            <li id="faq"><a href="faq.html">À propos</a></li>
+            <li id="galerie"><a href="galerie.html">Galerie</a></li>
             <li id="login"><span onclick="afficherLoginForm()">Se connecter</span></li>
-            <li id="signin"><a href="pages/signin.html">S'enregistrer</a></li>
-            <li id="contact"><a href="pages/contact.html">Nous contacter</a></li>
+            <li id="signin"><a href="signin.html">S'enregistrer</a></li>
+            <li id="contact"><a href="contact.html">Nous contacter</a></li>
         </ul>
         <div class="login-modal">
             <form action="" method="post">
                 <span class="close" onclick="fermerModal()">&times;</span>
                 <div class="avatar">
-                    <img src="assets/medias/img/boy.svg" alt="Avatar">
+                    <img src="../assets/medias/img/boy.svg" alt="Avatar">
                 </div>
 
                 <div class="container">
@@ -52,8 +52,26 @@
         </div>
     </nav>
     
-    <main>
-        Contenu
+    <main class="contact">
+        <form action="" method="post">
+            <fieldset>
+                <label for="reason">Vous souhaitez nous contacter pour :</label>
+                <select name="reason" id="reason">
+                    <option value="devis">prendre un rendez-vous</option>
+                    <option value="autre">autre</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Votre identité</legend>
+                <label for="whoami">Vous êtes :</label>
+
+                <select name="whoami" required="required">
+                    <option value="particulier">Un particulier</option>
+                    <option value="organisation">Une entreprise / association</option>
+                </select> 
+            </fieldset>
+        </form>
 
     </main>
 

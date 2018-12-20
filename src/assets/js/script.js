@@ -2,14 +2,7 @@
  * Évenement globaux
 **********************************************************/
 
-document.onload = function() {
-    var main = document.getElementsByTagName("main");
-    while(true) {
-        if (main.offsetTop > 0) {
-            console.log("Position : " + main.offsetTop);
-        }
-    }
-};
+
 
 /**********************************************************
  * Formulaire de connexion
@@ -31,6 +24,42 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+}
+
+/**********************************************************
+ * Galerie
+**********************************************************/
+/**
+ * 
+ * @param {int} numeroImage Valeur arbitraire passer en paramètre dans le HTML pour une image donnée
+ */
+function aggrandir(numeroImage) {
+    var previewImage = document.querySelector("img.preview");
+    var imageSource;
+
+    switch (numeroImage) {
+        case 1:
+            imageSource = "file:///home1/ac395382/Cours/Info1B/Projet/prestation-henne/src/assets/medias/img/galerie1.jpg";
+            break;
+        
+        case 2:
+            imageSource = "file:///home1/ac395382/Cours/Info1B/Projet/prestation-henne/src/assets/medias/img/galerie2.jpg";
+            break;
+
+        case 3:
+            imageSource = "file:///home1/ac395382/Cours/Info1B/Projet/prestation-henne/src/assets/medias/img/galerie3.jpg";
+            break;
+
+        case 4:
+            imageSource = "file:///home1/ac395382/Cours/Info1B/Projet/prestation-henne/src/assets/medias/img/galerie4.jpg";
+            break;
+
+        case 5:
+            imageSource = "file:///home1/ac395382/Cours/Info1B/Projet/prestation-henne/src/assets/medias/img/galerie5.jpg";
+            break;
+    }
+
+    previewImage.src = imageSource;
 }
 
 /**********************************************************
@@ -117,15 +146,4 @@ function genererCalendrier(date) {
         }
         
     }
-}
-
-/**********************************************************
- * Galerie
-**********************************************************/
-
-galerie = document.querySelectorAll(".galerie img");
-
-for (var i = 0; i < galerie.length; i++) {
-    var image = galerie[i];
-    // ...
 }
