@@ -33,38 +33,27 @@ window.onclick = function(event) {
  * 
  * @param {int} numeroImage Valeur arbitraire passer en paramètre dans le HTML pour une image donnée
  */
-function aggrandir(numeroImage) {
-    var previewImage = document.querySelector("img.preview");
-    var imageSource;
-
-    switch (numeroImage) {
-        case 1:
-            imageSource = "file:///home1/ac395382/Cours/Info1B/Projet/prestation-henne/src/assets/medias/img/galerie1.jpg";
-            break;
-        
-        case 2:
-            imageSource = "file:///home1/ac395382/Cours/Info1B/Projet/prestation-henne/src/assets/medias/img/galerie2.jpg";
-            break;
-
-        case 3:
-            imageSource = "file:///home1/ac395382/Cours/Info1B/Projet/prestation-henne/src/assets/medias/img/galerie3.jpg";
-            break;
-
-        case 4:
-            imageSource = "file:///home1/ac395382/Cours/Info1B/Projet/prestation-henne/src/assets/medias/img/galerie4.jpg";
-            break;
-
-        case 5:
-            imageSource = "file:///home1/ac395382/Cours/Info1B/Projet/prestation-henne/src/assets/medias/img/galerie5.jpg";
-            break;
-    }
-
-    previewImage.src = imageSource;
+function aggrandir(image) {
+    document.querySelector("img.preview").src = image.src;
 }
 
 /**********************************************************
  * Gestion du calendrier
 **********************************************************/
+
+document.onload = afficherDate();
+
+function afficherDate() {
+    var date = document.querySelector(".date");
+    var d = new Date();
+    var jour = calculerJour(d);
+    
+    date.innerHTML = jour + " " + d.getDate() + "/" + d.getMonth() +  "/" + d.getFullYear()
+                    + " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+
+    setTimeout(arguments.callee, 1000);
+    
+}
 
 /*
  * Retourne le nom du jours de la semaine

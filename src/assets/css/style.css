@@ -8,6 +8,11 @@ a {
     text-decoration: none;
     color: #965041;
 }
+
+a:hover {
+    cursor: url('../medias/img/henna.png'), auto;	
+}
+
 input {
     min-width: 300px;
     min-height: 30px;
@@ -144,7 +149,7 @@ nav #login {
 
 .avatar img {
     width: 100px;
-    margin: auto;
+    margin: auto;font-family: 'Barlow', sans-serif;
 }
 
 /*
@@ -171,8 +176,8 @@ header div a {
     border: solid 1px #FFF;
     border-radius: 6px;
     background-color: transparent;
-    color: #FFF;
-    font-size: 1.3em;
+    color: #FFF;font-family: 'Barlow', sans-serif;
+    font-size: 2em;
 }
 
 header div a:hover {
@@ -191,7 +196,7 @@ main {
     padding: 30px;
 }
 
-main section {
+main section:not(.sommaire) {
     margin-top: auto;
 }
 
@@ -234,10 +239,17 @@ section.video-preview video {
 
 /* Tarifs */
 
+.tarifs h1,
+.horraires h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 3rem;
+}
+
 .tarifs table {
+    table-layout: fixed ;
     width: 100%;
     text-align: center;
-    border-collapse: separate;
+    border-collapse: collapse;
 }
 
 section.tarifs table thead {
@@ -256,7 +268,17 @@ section.tarifs table tbody tr:nth-child(even) {
     background-color: #fafafa;
 }
 
+.tarifs table tr td:first-of-type {
+    border-right: solid 2px #965041;
+}
+
 /* Horraires */
+
+.date {
+    margin-bottom: 16px;
+    font-size: 2rem;
+    font-style: italic;
+}
 
 section.horraires table {
     table-layout: fixed;
@@ -277,6 +299,10 @@ section.horraires table thead {
     height: 50px;
 }
 
+section.horraires table thead tr th:first-of-type {
+    background-color: transparent;
+}
+
 .horraires th {
     background-color: #182433;
     color: #FFF;
@@ -289,28 +315,36 @@ td.ouvert {
 /****** faq.html ******/
 
 main.faq {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-left: 0;
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-areas: "sommaire contenu";
 }
 
-main.faq .sommaire {
-    width: 25%;
-    background-color: #43A;
+main.faq section.sommaire {
+    grid-area: sommaire;
+    position: fixed;
 }
 
-main.faq .contenu {
-    width: 75%;
-    background-color: #FF5;
+main.faq section.contenu {
+    grid-area: contenu;
 }
 
-.sommaire{
-    position: sticky;
-    top: 0;
+.sommaire ul {
+    list-style: none;
+}
+
+section.sommaire ul li {
+    margin-bottom: 16px;
+}
+
+section.sommaire ul li::before {
+    content: "";
     display: inline-block;
-    vertical-align: top;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background: #965041;
+    /* background: url("../medias/img/henna.png"); */
 }
 
 /****** galerie.html ******/
@@ -344,11 +378,38 @@ section.galerie img {
 
 /****** contact.html ******/
 
-main.contact form fieldset {
-    position: static;
-    top: 0;
-    left: 0;
-    background-color: teal;
+main.contact form {
+    padding: 50px;
+    /* border: #027ab9 solid 3px; */
+}
+
+main.contact form div.ligne {
+    display: block;
+}
+
+div.ligne select {
+    position: relative;
+    top: -7px;
+    min-width: 300px;
+    min-height: 30px;
+    border: solid 1px #182433;
+}
+
+main.contact form div.ligne label
+main.contact form div.ligne input {
+    width: 100%;
+}
+
+main.contact form div.ligne:nth-child(6) input {
+    width: 60%;
+    min-height: 200px;
+}
+
+main.contact form .buttons {
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-top: 36px;
 }
 
 /*
