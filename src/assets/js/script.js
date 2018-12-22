@@ -31,10 +31,10 @@ window.onclick = function(event) {
 **********************************************************/
 /**
  * 
- * @param {int} numeroImage Valeur arbitraire passer en paramètre dans le HTML pour une image donnée
+ * @param {object} image Valeur récupéré dans le html avec "this" 
  */
-function aggrandir(image) {
-    document.querySelector("img.preview").src = image.src;
+function agrandir(image) {
+    document.querySelector("section.preview img").src = image.src;
 }
 
 /**********************************************************
@@ -135,4 +135,74 @@ function genererCalendrier(date) {
         }
         
     }
+}
+
+/**********************************************************
+ * Validation des formulaires
+**********************************************************/
+
+
+function verifierFormulaireContact() {
+    var bienRempli = false;
+    var fomulaire = document.querySelector(".contact form");
+    var nom = fomulaire.nom;
+    var email = fomulaire.email;
+    var tel = fomulaire.tel;
+    var erreurs = document.querySelector(".erreurs ul");
+
+    erreurs.style.display = "block";
+
+    if(nomCorrect(nom) || emailCorrect(email) || telCorrect(tel)) {
+        bienRempli = true;
+        erreurs.style.display = "none";
+    }
+
+    return bienRempli;
+}
+
+function nomCorrect(nom) {
+    var motif = /^[A-Z][a-z]+ [A-Z][a-z]+$/; 
+    //console.log(typeof motif) // Objet de type RegExp
+    
+    if(motif.test(nom.value)) {
+        nom.style.borderColor = "green";
+        return true;
+    } else {
+        afficherErreur("Nom incorrect (format \"Nom Prénom\" attendu)");
+        nom.style.borderColor = "red";
+        return false;
+    }
+}
+
+function emailCorrect(email) {
+    var motif = /^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/; 
+    
+    if(motif.test(email.value)) {
+        email.style.borderColor = "green";
+        return true;
+    } else {
+        afficherErreur("Email invalide (format \"xxx@yyy.zz\")");
+        email.style.borderColor = "red";
+        return false;
+    }
+}
+
+function telCorrect(tel) {
+    var motif = /^[0-9]{10}$/; 
+    
+    if(motif.test(tel.value)) {
+        tel.style.borderColor = "green";
+        return true;
+    } else {
+        afficherErreur("Numéro de teléphone non valide (10 chiffres attendu)");
+        tel.style.borderColor = "red";
+        return false;
+    }
+}
+
+function afficherErreur(message) {
+    var erreurs = document.querySelector(".erreurs ul"); // Récupère un <ul></ul>
+    var li = document.createElement("li");
+    li.innerHTML = message;
+    erreurs.appendChild(li);
 }

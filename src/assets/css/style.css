@@ -16,11 +16,17 @@ a:hover {
 input {
     min-width: 300px;
     min-height: 30px;
+}
+
+input,
+textarea {
     border: solid 1px #182433;
 }
 
+input[type="submit"],
+input[type="reset"],
 button {
-    min-width: 70px;
+    width: 70px;
     height: 50px;
     padding: 8px;
     background-color: #182433;
@@ -354,11 +360,11 @@ main.galerie {
     grid-template: "preview galerie";
 }
 
-img.preview {
+section.preview {
     grid-area: preview;
 }
 
-img.preview {
+section.preview img {
     width: 30vw;
 }
 
@@ -373,44 +379,68 @@ section.galerie {
 section.galerie img {
     width: 200px;
     height: 200px;
-    padding: 3px;
+    margin: 3px;
+    border: solid 1px #222;
+    background-color: #965041;
 }
 
 /****** contact.html ******/
 
 main.contact form {
+    width: 60%;
+    margin: auto;
     padding: 50px;
-    /* border: #027ab9 solid 3px; */
 }
 
 main.contact form div.ligne {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6px auto;
 }
 
 div.ligne select {
-    position: relative;
-    top: -7px;
     min-width: 300px;
     min-height: 30px;
     border: solid 1px #182433;
+    background-color: transparent;
 }
 
+/* main.contact form div.ligne, select */
 main.contact form div.ligne label
 main.contact form div.ligne input {
     width: 100%;
 }
 
-main.contact form div.ligne:nth-child(6) input {
-    width: 60%;
-    min-height: 200px;
+main.contact form div.ligne:nth-child(6) textarea {
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    font-size: 1.5em;
 }
 
 main.contact form .buttons {
-    display: block;
-    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
     margin: auto;
     margin-top: 36px;
 }
+
+main.contact form .erreurs ul {
+    width: 100%;
+    list-style: square;
+    color: #F55;
+}
+
+main.contact form .buttons input {
+    margin: auto 30px;
+}
+
+/****** inscription.html ******/
+
+
 
 /*
  * FOOTER

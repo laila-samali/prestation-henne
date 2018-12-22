@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Chanfi Attoumani, Samali Laila">
-    <title>Nous contacter - Hannaya</title>
+    <title>Inscription - Hannaya</title>
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body>
+<body class="inscription" onload="draw()">
     <nav>
         <a href="../index.html" class="logo">Hannaya</a href="index.html">
         <ul>
@@ -52,50 +52,15 @@
         </div>
     </nav>
     
-    <main class="contact">
-        <!-- <form action="mailto:someone@example.com" method="post" onsubmit="return verifierFormulaireContact()"> -->
-        <form action="" method="post" onsubmit="return verifierFormulaireContact()">
-            <div class="ligne">
-                <label for="nom">Nom</label>
-                <label for="tel">Téléphone</label>
-            </div>
-            
-            <div class="ligne">
-                <input type="text" name="nom" id="nom"/>
-                <input type="tel" name="tel" id="tel"/>
-            </div>
+    <main>
+        <style>
+            canvas {
+                width: 400px;
+                border: solid 1px #222;
+            }
+        </style>
 
-            <div class="ligne">
-                <label for="mail">Mail</label>
-                <label for="sujet">Sujet</label>
-            </div>
-            
-            <div class="ligne">
-                <input type="email" name="email" id="email"/>
-                <select name="sujet" id="sujet">
-                    <option value="">Choisir un sujet</option>
-                    <option value="rdv">Prendre un rendez-vous</option>
-                    <option value="renseignements">Demande de renseignements</option>
-                </select>
-            </div>
-
-            <div class="ligne">
-                <label for="message">Message</label>
-            </div>
-            
-            <div class="ligne">
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            </div>
-
-            <div class="ligne erreurs">
-                <ul></ul>
-            </div>
-
-            <div class="buttons">
-                <input type="submit" value="Valider">
-                <input type="reset" value="Réinitialiser">
-            </div>
-        </form>
+        <canvas width="400" height="400"></canvas>
 
     </main>
 
@@ -124,6 +89,24 @@
         </div>
     </footer>
 
+    
     <script src="../assets/js/script.js"></script>
+    <script>
+        function draw() {
+            var canvas = document.querySelector("canvas");
+            if(canvas.getContext) {
+                var context = canvas.getContext("2d");
+
+                context.fillStyle = 'rgb(200, 0, 0)';
+                context.beginPath();
+                // context.moveTo(200, 200);
+                context.arc(200, 200, 30, 0, Math.PI * 2, true)
+                context.stroke();
+                context.closePath()
+            } else {
+                // Navigateur ne supporte pas la balise canvas
+            }
+        }
+    </script>
 </body>
 </html>
