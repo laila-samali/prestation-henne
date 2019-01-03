@@ -10,7 +10,7 @@
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="home">
+<body class="home" onload="afficherDate()">
     <nav>
         <a href="index.html" class="logo">Hannaya</a href="index.html">
         <ul>
@@ -79,20 +79,26 @@
             <table>
                 <thead>
                     <tr>
-                        <td>
+                        <th>
                             <h4>Enfant moins de 8ans</h4>
                             <p>Total : 15€</p>
-                        </td>
-                        <td>
+                        </th>
+                        <th>
                             <h4>Adultes</h4>
                             <p>Total : 25€</p>
-                        </td>
+                        </th>
+                        <th>
+                            <h4>Objets</h4>
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Main 7€</td>
                         <td>Main 10€</td>
+                        <td rowspan="2">
+                            Bougie 5€
+                        </td>
                     </tr>
 
                     <tr>

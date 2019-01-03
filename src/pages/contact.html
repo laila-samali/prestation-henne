@@ -7,6 +7,8 @@
     <meta name="author" content="Chanfi Attoumani, Samali Laila">
     <title>Nous contacter - Hannaya</title>
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/solid.css" integrity="sha384-+0VIRx+yz1WBcCTXBkVQYIBVNEFH1eP6Zknm16roZCyeNg2maWEpk/l/KsyFKs7G" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
@@ -53,6 +55,19 @@
     </nav>
     
     <main class="contact">
+        <div class="container">
+            <div id="map"></div>
+
+            <div class="infos">
+                <ul>
+                    <li><i class="fa fa-phone"></i> 03 80 00 00 00</li>
+                    <li><i class="fa fa-clock"></i> 8h à 12 et 14 à 18h</li>
+                    <li><i class="fa fa-map"></i> 9 avenue Alain Savary, BP 47870 - 21078 Dijon Cedex</li>
+                    <li><i class="fas fa-tram"></i> Ligne T1, arrêt Université</li>
+                    <li><i class="fa fa-bus-alt"></i> Ligne 5, arrêt Univesité (terminus)</li>
+                </ul>
+            </div>
+        </div>
         <!-- <form action="mailto:someone@example.com" method="post" onsubmit="return verifierFormulaireContact()"> -->
         <form action="" method="post" onsubmit="return verifierFormulaireContact()">
             <div class="ligne">
@@ -124,6 +139,28 @@
         </div>
     </footer>
 
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBbB2eJmQZnd1LAZ_y88MfYSuT9V0QyHMo &callback=initMap" type="text/javascript"></script>
+    <script>
+        function initMap() {
+            // Localisation
+            var emplacement = { lat: 47.313162, lng: 5.072825 };
+            // Centrer la carte à l'emplacement indiqué
+            var map = new google.maps.Map(document.getElementById('map'), { 
+                center: emplacement,
+                zoom: 18
+            });
+            // Place un marqueur à l'emplacement
+            var marker = new google.maps.Marker({ position: emplacement, map: map });
+        }
+
+        initMap();
+
+        // On affiche pas la carte si l'adresse par laquelle on accède au site 
+        // n'est pas autorisé dans la configuration de l'API Google Maps
+        if(!window.location.href.includes("localhost:8000") && !window.location.href.includes("aragon")) {
+            document.getElementById("map").style.display = "none";
+        }
+    </script>
     <script src="../assets/js/script.js"></script>
 </body>
 </html>

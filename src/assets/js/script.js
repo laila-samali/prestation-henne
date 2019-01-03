@@ -41,15 +41,16 @@ function agrandir(image) {
  * Gestion du calendrier
 **********************************************************/
 
-document.onload = afficherDate();
+// document.onload = afficherDate(); // Fonction appeler directetement dans le html sur l'événement onload dans la balise body (index.html)
 
 function afficherDate() {
     var date = document.querySelector(".date");
     var d = new Date();
     var jour = calculerJour(d);
+    var mois = calculerMois(d);
     
-    date.innerHTML = jour + " " + d.getDate() + "/" + d.getMonth() +  "/" + d.getFullYear()
-                    + " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+    date.innerHTML = jour + " " + d.getDate() + " " + mois +  " " + d.getFullYear()
+                    + ", " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
 
     setTimeout(arguments.callee, 1000);
     
@@ -58,10 +59,19 @@ function afficherDate() {
 /*
  * Retourne le nom du jours de la semaine
 *****************************************/
-function calculerJour(numeroJour) {
+function calculerJour(date) {
     return ["Lundi", "Mardi", "Mercredi", 
            "Jeudi", "Vendredi", "Samedi", 
-           "Dimanche"][numeroJour.getDay() - 1];
+           "Dimanche"][date.getDay() - 1];
+}
+
+/*
+ * Retourne le nom du mois
+*****************************************/
+function calculerMois(date) {
+    return ["Janvier", "Fevrier", "Mars", "Avril", 
+    "Mai", "Juin", "Juillet", "Août", "Septembre", 
+    "Octobre", "Novembre", "Decembre"][date.getMonth()];
 }
 
 /*

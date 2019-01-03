@@ -314,6 +314,14 @@ section.horraires table thead tr th:first-of-type {
     color: #FFF;
 }
 
+section.horraires table tr {
+    height: 60px;
+}
+
+section.horraires table td {
+    border: solid 1px #18243344;
+}
+
 td.ouvert {
     background-color: hsl(101, 90%, 84%);
 }
@@ -385,6 +393,33 @@ section.galerie img {
 }
 
 /****** contact.html ******/
+
+main.contact {
+    width: 90vw;
+    padding: auto 100px;
+}
+
+main.contact .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#map {
+    width: 50%;
+    height: 500px;
+    border: solid 1px #182433;
+    box-shadow: 11px 8px #222;
+}
+
+.container .infos ul {
+    list-style: none;
+}
+
+.container .infos .fa,
+.container .infos .fas {
+    margin: 8px 16px;
+}
 
 main.contact form {
     width: 60%;
