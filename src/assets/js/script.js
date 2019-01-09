@@ -170,10 +170,43 @@ function verifierFormulaireContact() {
     return bienRempli;
 }
 
+function verifierFormulaireInscription() {
+    var bienRempli = false;
+    var fomulaire = document.querySelector("form#inscription");
+    var nom = fomulaire.nom;
+    var email = fomulaire.email;
+    var tel = fomulaire.tel;
+    var erreurs = document.querySelector(".erreurs ul");
+
+    erreurs.style.display = "block";
+
+    if(nomCorrect(nom) || emailCorrect(email) || telCorrect(tel)) {
+        bienRempli = true;
+        erreurs.style.display = "none";
+    }
+
+    return bienRempli;
+}
+
 function nomCorrect(nom) {
-    var motif = /^[A-Z][a-z]+ [A-Z][a-z]+$/; 
+    var motif = /^[A-Z][a-z]+ ([A-Z][a-z])*/; 
     //console.log(typeof motif) // Objet de type RegExp
-    
+    var nomFormate = "";
+
+    for (var i = 0; i < nom.value.length; i++) {
+        // Si c'est la première lettre ou une lettre 
+        // précédée d'un espace, on la met en majuscule, 
+        // sinon en minuscule
+        if (i == 0 || (i > 0 && nom.value.charAt(i - 1) == " ")) {
+            nomFormate += nom.value.charAt(i).toUpperCase();
+        } else {
+            nomFormate += nom.value.charAt(i).toLowerCase();
+        }
+        
+    }
+
+    nom.value = nomFormate.trim(); // On enlève les éventuelle espaces autour du nom
+
     if(motif.test(nom.value)) {
         nom.style.borderColor = "green";
         return true;

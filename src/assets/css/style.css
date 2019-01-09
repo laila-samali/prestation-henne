@@ -475,7 +475,31 @@ main.contact form .buttons input {
 
 /****** inscription.html ******/
 
+main.inscription section {
+    position: relative;
+}
 
+#inscription,
+#inscription + img {
+    display: inline-block;
+}
+
+form#inscription {
+    width: 30vw;
+    padding: 15px;
+}
+
+#inscription + img {
+    width: 65%;
+    opacity: 0.8;
+    filter: blur(1px);
+    transition: opacity 2s, filter 2s;
+}
+
+#inscription + img:hover {
+    opacity: 1;
+    filter: blur(0);
+}
 
 /*
  * FOOTER
